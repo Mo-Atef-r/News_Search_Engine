@@ -1,0 +1,17 @@
+# Auto normalize line endings to LF in repo, platform-native in working copy
+* text=auto
+
+# Explicit rules for source code (force LF)
+*.js text eol=lf
+*.jsx text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# Windows-specific files can stay CRLF if needed
+*.bat text eol=crlf

@@ -1,0 +1,4 @@
+Sending request for query: 'computer graphics technology'
+
+API Call Failed. Status Code: 500
+Error details saved to error_log.txt. Check the file for the full traceback.
